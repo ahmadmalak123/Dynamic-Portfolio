@@ -1,0 +1,297 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+#bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/hm.jpg");
+  background-size: cover;
+}
+
+.container2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 68px;
+  border-bottom: 1px solid white;
+}
+
+#nav-bar-comp {
+  margin-left: 50px;
+}
+
+#nav-bar-comp a {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 40px;
+  padding-left: 40px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+#nav-bar-comp a:hover {
+  background-color: #40e0d0;
+  opacity: 0.7;
+  transition: ease-in-out;
+  transition-duration: 0.3s;
+}
+
+#right {
+  display: flex;
+  gap: 40px;
+  margin-right: 50px;
+  align-items: center;
+}
+
+#right h2 {
+  font-size: 2em;
+  color: white;
+  text-transform: uppercase;
+  font-size: larger;
+}
+
+#logout {
+  padding: 13px;
+  border: none;
+  border-radius: 50px;
+  background: #40e0d0;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#logout:hover {
+  background: white;
+  color: #40e0d0;
+  transition: ease-in-out;
+  transition-duration: 0.3s;
+}
+
+/* Hero section */
+#hero {
+  background-size: cover;
+  background-position: center top;
+  position: relative;
+  z-index: 1;
+  height: 100vh;
+}
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#hero .hero {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+#hero h1 {
+  display: block;
+  width: fit-content;
+  font-size: 4rem;
+  position: relative;
+  color: transparent;
+  animation: animate_text 0.5s ease forwards;
+  animation-delay: 1;
+}
+#hero h1:nth-child(1) {
+  animation-delay: 1s;
+}
+#hero h1:nth-child(2) {
+  animation: animate_name 0.5 ease forwards;
+  animation-delay: 2s;
+}
+#hero h1 span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  background-color: #40e0d0;
+  animation: text_animation 1s ease;
+  animation-delay: 0.5s;
+}
+#hero h1:nth-child(1) span {
+  animation-delay: 0.5s;
+}
+
+#hero h1:nth-child(2) span {
+  animation-delay: 1.5s;
+}
+#hero .cta {
+  display: inline-block;
+  padding: 10px 30px;
+  color: #40e0d0;
+  background-color: transparent;
+  border: 2px solid #40e0d0;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin-top: 20px;
+  transition: 0.4s ease;
+  transition-property: background-color, color;
+}
+#hero .cta:hover {
+  color: white;
+  background-color: #40e0d0;
+}
+/* Hero section */
+
+/*Key Frame*/
+@keyframes text_animation {
+  50% {
+    width: 100%;
+    left: 0;
+  }
+
+  100% {
+    width: 0;
+    left: 100%;
+  }
+}
+
+@keyframes animate_text {
+  100% {
+    color: white;
+  }
+}
+@keyframes animate_name {
+  100% {
+    color: #40e0d0;
+    font-weight: 500;
+  }
+}
+/*Key Frame*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: monospace;
+}
+
+a {
+  text-decoration: none;
+}
+/* Hero section */
+#hero {
+  background-size: cover;
+  background-position: center top;
+  position: relative;
+  z-index: 1;
+  height: 100vh;
+}
+
+/* Rest of your CSS rules */
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#hero .hero {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+#hero h1 {
+  display: block;
+  width: fit-content;
+  font-size: 4rem;
+  position: relative;
+  color: transparent;
+  animation: animate_text 0.5s ease forwards;
+  animation-delay: 1;
+}
+#hero h1:nth-child(1) {
+  animation-delay: 1s;
+}
+#hero h1:nth-child(2) {
+  animation: animate_name 0.5 ease forwards;
+  animation-delay: 2s;
+}
+#hero h1 span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  background-color: #40e0d0;
+  animation: text_animation 1s ease;
+  animation-delay: 0.5s;
+}
+#hero h1:nth-child(1) span {
+  animation-delay: 0.5s;
+}
+
+#hero h1:nth-child(2) span {
+  animation-delay: 1.5s;
+}
+#hero .cta {
+  display: inline-block;
+  padding: 10px 30px;
+  color: #40e0d0;
+  background-color: transparent;
+  border: 2px solid #40e0d0;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin-top: 20px;
+  transition: 0.4s ease;
+  transition-property: background-color, color;
+}
+#hero .cta:hover {
+  color: white;
+  background-color: #40e0d0;
+}
+/* Hero section */
+
+/*Key Frame*/
+@keyframes text_animation {
+  50% {
+    width: 100%;
+    left: 0;
+  }
+
+  100% {
+    width: 0;
+    left: 100%;
+  }
+}
+
+@keyframes animate_text {
+  100% {
+    color: white;
+  }
+}
+@keyframes animate_name {
+  100% {
+    color: #40e0d0;
+    font-weight: 500;
+  }
+}
+/*Key Frame*/

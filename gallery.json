@@ -1,0 +1,11 @@
+[
+  {"id": "ultras", "src": "images/ultras.jpg", "alt": "Ultras"},
+  {"id": "team", "src": "images/team.jpg", "alt": "Team"},
+  {"id": "maldini", "src": "images/maldini.webp", "alt": "Maldini"},
+  {"id": "kaka", "src": "images/kaka.png", "alt": "Kaka"},
+  {"id": "ac", "src": "images/ac.jpg", "alt": "AC"},
+  {"id": "capitano", "src": "images/capitano.jpg", "alt": "Capitano"},
+  {"id": "path", "src": "images/Path.jpg", "alt": "Path"},
+  {"id": "champions", "src": "images/Champions.jpg", "alt": "Champions"},
+  {"id": "stadium", "src": "images/stadium.jpg", "alt": "Stadium"}
+]
